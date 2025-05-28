@@ -21,6 +21,10 @@ st.sidebar.header("特征输入区域")
 st.sidebar.write("请输入特征值：")
 
 # 定义特征输入范围
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5d7f5a9 (3)
 depression = st.sidebar.number_input("特征 depression  (范围: 0-1)", min_value=0, max_value=1, value=1)
 wavelet_HHL_glrlm_RunLengthNonUniformityNormalized = st.sidebar.number_input("特征 wavelet.HHL.glrlm.RunLengthNonUniformityNormalized  (范围: 0.338031-0.4071359)", min_value=0.338031, max_value=0.4071359, value=0.392841974686494)
 wavelet_HHL_firstorder_Median = st.sidebar.number_input("特征 wavelet.HHL.firstorder.Median  (范围: -0.015689-0.1198817)", min_value=-0.015689, max_value=0.1198817, value=0.052452842888068)
@@ -35,6 +39,32 @@ original_glcm_Autocorrelation = st.sidebar.number_input("特征 original.glcm.Au
 wavelet_LLH_glcm_MCC = st.sidebar.number_input("特征 wavelet.LLH.glcm.MCC   (范围: 0.775903-0.9841110)", min_value=0.775903, max_value=0.9841110, value=0.906120059179769)
 ALB = st.sidebar.number_input("特征 ALB  (范围: 30.400000-50.30000)", min_value=30.400000, max_value=50.30000, value=36.5)
 Operative_time = st.sidebar.number_input("特征 Operative.time   (范围: 49-550)", min_value=49, max_value=550, value=550)
+<<<<<<< HEAD
+=======
+=======
+HHL_glrlm_RLNUniNorm= st.sidebar.number_input("特征 wavelet.HHL.glrlm.RunLengthNonUniformityNormalized (范围: 0.3380315-0.4071359)", min_value=0.3380315, max_value=0.4071359, value=0.392841974686494)
+depression = st.sidebar.number_input("特征 depression (范围: 0-1)", min_value=0, max_value=1, value=1)
+ALB = st.sidebar.number_input("特征 ALB (范围: 30.4-50.3)", min_value=30.4, max_value=50.3, value=36.5)
+HLH_ngtdm_Contrast = st.sidebar.number_input("特征 wavelet.HLH.ngtdm.Contrast (范围:  0.0007196355-0.007903385)", min_value=0.0007196355, max_value=0.007903385, value=0.00200425913154255)
+Orig_1st_Med = st.sidebar.number_input("特征 original.firstorder.Median (范围: 13-59)", min_value=13, max_value=59, value=29)
+Orig_ngtdm_Str = st.sidebar.number_input("特征 original.ngtdm.Strength (范围: 0.006529775-0.6016773)", min_value=0.006529775, max_value=0.6016773, value=0.0238386651523205)
+LLH_glcm_IMC2 = st.sidebar.number_input("特征 wavelet.LLH.glcm.Imc2 (范围: 0.5296347-0.9590042)", min_value=0.5296347, max_value=0.9590042, value=0.842884819810307)
+LLH_1st_Max = st.sidebar.number_input("特征 wavelet.LLH.firstorder.Maximum (范围: 180.8378 到 1161.716)", min_value=180.8378, max_value=1161.716, value=245.586205830349)
+LLL_1st_Ener = st.sidebar.number_input("特征 wavelet.LLL.firstorder.Energy (范围: 93352630 到 1078847000)", min_value=93352630, max_value=1078847000, value=217064766.477771)
+HHL_1st_Med = st.sidebar.number_input("特征 wavelet.HHL.firstorder.Median (范围: -0.01568906 到 0.1198817)", min_value=-0.01568906, max_value=0.1198817, value=0.052452842888068)
+Orig_glcm_ClusShade = st.sidebar.number_input("特征 original.glcm.ClusterShade (范围: -42.909 到 6.599659)", min_value=-42.909, max_value= 6.599659, value=-0.788808389265009)
+HLH_glszm_GLNUniNorm = st.sidebar.number_input("特征 wavelet.HLH.glszm.GrayLevelNonUniformityNormalized (范围: 0.1647905 到 0.4181931)", min_value=0.1647905, max_value=0.4181931, value=0.288887906871038)
+HLH_glrlm_LR_HGLE = st.sidebar.number_input("特征 wavelet.HLH.glrlm.LongRunHighGrayLevelEmphasis (范围: 148.5932 到 1724.463)", min_value=148.5932, max_value=1724.463, value=422.496396998562)
+Orig_1st_Perc90 = st.sidebar.number_input("特征 original.firstorder.90Percentile (范围: 38 到 77)", min_value=38, max_value=77, value=49)
+Orig_1st_Ener = st.sidebar.number_input("特征 original.firstorder.Energy (范围: 11933140 到 128495400)", min_value=11933140 , max_value=128495400, value=24847591)
+HLH_glszm_LA_HGLE = st.sidebar.number_input("特征 wavelet.HLH.glszm.LargeAreaHighGrayLevelEmphasis (范围: 178720.6 到 10806650)", min_value=178720.6, max_value=10806650, value=932798.531407035)
+LLH_glcm_MCC = st.sidebar.number_input("特征 wavelet.LLH.glcm.MCC (范围:0.7759031 到 0.984111)", min_value=0.7759031, max_value=0.984111, value=0.906120059179769)
+Operative_time = st.sidebar.number_input("特征 Operative.time (范围: 49 到 550)", min_value=49, max_value= 550, value=550)
+LLH_gldm_GLNU = st.sidebar.number_input("特征 wavelet.LLH.gldm.GrayLevelNonUniformity (范围: 3164.433 到 20873.98)", min_value=3164.433, max_value=3164.433, value=5863.36161806208)
+
+
+>>>>>>> 4eebd2e (注释)
+>>>>>>> 5d7f5a9 (3)
 # 添加预测按钮
 predict_button = st.sidebar.button("进行预测")
 
@@ -43,7 +73,15 @@ if predict_button:
     st.header("预测结果")
     try:
         # 将输入特征转换为模型所需格式
+<<<<<<< HEAD
         input_array = np.array([depression, wavelet_HHL_glrlm_RunLengthNonUniformityNormalized, wavelet_HHL_firstorder_Median, wavelet_HHL_glszm_ZonePercentage, wavelet_HLH_glcm_MCC, original_glrlm_GrayLevelNonUniformity,wavelet_LLL_glcm_ClusterProminence, wavelet_HLH_glszm_LargeAreaHighGrayLevelEmphasis,wavelet_HLH_gldm_LargeDependenceHighGrayLevelEmphasis,original_shape_VoxelVolume,original_glcm_Autocorrelation,wavelet_LLH_glcm_MCC,ALB,Operative_time]).reshape(1, -1)
+=======
+<<<<<<< HEAD
+        input_array = np.array([depression, wavelet_HHL_glrlm_RunLengthNonUniformityNormalized, wavelet_HHL_firstorder_Median, wavelet_HHL_glszm_ZonePercentage, wavelet_HLH_glcm_MCC, original_glrlm_GrayLevelNonUniformity,wavelet_LLL_glcm_ClusterProminence, wavelet_HLH_glszm_LargeAreaHighGrayLevelEmphasis,wavelet_HLH_gldm_LargeDependenceHighGrayLevelEmphasis,original_shape_VoxelVolume,original_glcm_Autocorrelation,wavelet_LLH_glcm_MCC,ALB,Operative_time]).reshape(1, -1)
+=======
+        input_array = np.array([X_1, X_2, X_3, X_4, X_5, X_6, X_7, X_8]).reshape(1, -1)
+>>>>>>> 4eebd2e (注释)
+>>>>>>> 5d7f5a9 (3)
 
         # 模型预测
         prediction = stacking_regressor.predict(input_array)[0]
